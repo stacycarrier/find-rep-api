@@ -1,0 +1,36 @@
+{
+  "name": "find-rep-api",
+  "version": "1.0.0",
+  "description": "Super simple wrapper around the api at whosimyrepresentative.com/api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hillmanov/find-rep-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hillmanov/find-rep-api/issues"
+  },
+  "homepage": "https://github.com/hillmanov/find-rep-api",
+  "devDependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "webpack": "^1.13.3"
+  }
+}
